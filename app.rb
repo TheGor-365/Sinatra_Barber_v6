@@ -20,3 +20,12 @@ get '/contacts' do
 
 	erb :contacts
 end
+
+post '/visit' do
+	@username = params[:username]
+	@phone = params[:phone]
+	@date_time = params[:date_time]
+	@barber = params[:barber]
+
+	erb :visit
+end
