@@ -13,21 +13,21 @@
 
       <div class="form-group">
         <label>Your name</label>
-        <input name="username" type="text" class="form-control" placeholder="Input your name">
+        <input name="username" type="text" class="form-control input_color" placeholder="Input your name">
       </div>
 
       <div class="form-group">
         <label>Your phone</label>
-        <input name="phone" type="text" class="form-control" placeholder="Input your phone">
+        <input name="phone" type="text" class="form-control input_color" placeholder="Input your phone">
       </div>
 
       <div class="form-group">
         <label>Visiting date and time</label>
-        <input name="date_time" type="text" class="form-control" placeholder="Input your visiting date and time">
+        <input name="date_time" type="text" class="form-control input_color" placeholder="Input your visiting date and time">
       </div>
 
       <label for="exampleFormControlSelect1">Example select</label>
-      <select name="barber" class="form-control" id="exampleFormControlSelect1">
+      <select name="barber" class="form-control input_color" id="exampleFormControlSelect1">
         <option>Jessie Pincman</option>
         <option>Walter White</option>
         <option>Gus Fring</option>
@@ -36,6 +36,11 @@
       <button type="submit" class="btn btn-primary">Sign up</button>
 
     </form>
+
+    <script type="text/javascript">
+      $('.input_color').css('background-color', '#F0F8FF');
+      $('body').css('background-color', '#ccffee')
+    </script>
 
   </body>
 </html>
